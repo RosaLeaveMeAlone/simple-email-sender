@@ -1,6 +1,6 @@
 
 
-# How to Dockerize the project
+# Docker image and usage
 
 1. Start building the docker image
 
