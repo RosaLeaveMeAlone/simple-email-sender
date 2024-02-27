@@ -7,8 +7,8 @@ class Server {
 
         this.app = express();
         this.port = process.env.PORT;
-        this.contactPath = '/api/contact';
-        this.dummyPath = '/api/dummy';
+        this.contactPath = '/contact';
+        this.dummyPath = '/dummy';
 
         // Middlewares
         this.middlewares();
