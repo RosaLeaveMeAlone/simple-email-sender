@@ -10,7 +10,7 @@
 
 ``` docker run -d -p 3000:3000 -e PORT=3000 -e EMAIL_SENDER=mymail@gmail.com -e PASSWORD="xxxx xxxx xxxx xxxx" simple-email-sender ```
 
-3. Verify the app making a GET request to ```localhost:3000/api/dummy/test``` the request must return something like this:
+3. Verify the app making a GET request to ```localhost:3000/dummy/test``` the request must return something like this:
 
 ```
 {
