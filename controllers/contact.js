@@ -26,7 +26,7 @@ const contactPost = (req = request, res = response) => {
         from: emailSender,
         to: emailReceiver,
         subject: "Te han contactado desde tu página web",
-        text: req.body.message,
+        html: req.body.message,
       };
 
     transporter.sendMail(mailOptions, (error, info) => {
